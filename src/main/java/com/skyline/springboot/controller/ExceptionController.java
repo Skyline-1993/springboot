@@ -39,5 +39,6 @@ public class ExceptionController {
 
     public void test2() {
         System.out.println("222222");
+        System.out.println("3333333333333");
     }
 }
