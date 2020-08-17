@@ -1,6 +1,7 @@
 package com.skyline.springboot.controller;
 
 import com.skyline.springboot.util.R;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -27,6 +28,12 @@ public class ExceptionController {
     public R indexOutOfException() {
         int[] arr = {2, 5};
         System.out.println(arr[2]);
+        return R.ok();
+    }
+
+    @PostMapping("/testing")
+    public R test() {
+        System.out.println("lalala");
         return R.ok();
     }
 }
