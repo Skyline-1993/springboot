@@ -36,4 +36,8 @@ public class ExceptionController {
         System.out.println("lalala");
         return R.ok();
     }
+
+    public void test2() {
+        System.out.println("222222");
+    }
 }
