@@ -41,4 +41,8 @@ public class ExceptionController {
         System.out.println("222222");
         System.out.println("3333333333333");
     }
+
+    public void test3() {
+        System.out.println("丢掉后再提交");
+    }
 }
