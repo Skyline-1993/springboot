@@ -1,6 +1,7 @@
 package com.skyline.springboot.controller;
 
 import com.skyline.springboot.util.R;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,7 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ExceptionController {
 
-    @RequestMapping("/exception")
+    // @RequestMapping("/exception")
+    @PostMapping("/exception")
     public R exception() {
         int i = 10 / 0;
         return R.ok();
