@@ -31,4 +31,21 @@ public class ExceptionController {
         System.out.println(arr[2]);
         return R.ok();
     }
+
+    @PostMapping("/testing")
+    public R test() {
+        System.out.println("lalala");
+        return R.ok();
+    }
+
+    public void test2() {
+        System.out.println("222222");
+        System.out.println("3333333333333");
+        System.out.println("模拟场景开始");
+        System.out.println("aaaaaaaaaaaa");
+    }
+
+    public void test3() {
+        System.out.println("丢掉后再提交");
+    }
 }
